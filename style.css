@@ -1,5 +1,19 @@
-body{
-    margin:0;
+*{
+    margin: 0;
     padding: 0;
-    background-color: lightseagreen;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://rocketleague.media.zestyio.com/rl_platform_keyart_2019.jpg?width=1920&fit=bounds.jpg');
+    background-attachment: fixed;
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container2{
+    background: white;
+    width: 75%;
+    height: 2000px;
+    margin-top: 5%;
 }

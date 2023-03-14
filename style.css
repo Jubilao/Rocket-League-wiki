@@ -9,11 +9,35 @@ body{
 }
 .container1{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 .container2{
     background: white;
     width: 75%;
     height: 2000px;
-    margin-top: 5%;
+    margin-top: 7%;
+}
+.container3{
+    display: flex;
+    position: absolute;
+    justify-content: start;
+}
+.text1{
+    font-family: 'Climate Crisis', cursive;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    animation: mudar 1.5s infinite;
+}
+@keyframes mudar{
+    0%{
+        text-shadow: 5px 5px 5px black;
+    }
+    50%{
+        text-shadow: 5px 5px 5px skyblue;
+    }
+    100%{
+        text-shadow: 5px 5px 5px black;
+    }
 }
